@@ -13,12 +13,6 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        
-
-
-
-
-        //Prvý Úloha
         $a = 1;
         $b = 2;
         echo "Typy Proměnných: Logický typ, Celočíselný typ, Desetiné číslo, Řetězec<br>";
@@ -42,13 +36,6 @@ and open the template in the editor.
         var_dump($a || $b);
         var_dump($a && $b);
         var_dump(!$a);
-
-
-
-
-
-
-        //Druhá Úloha
         $jmenoprijmeni1 = 1;
         $jmenoprijmeni2 = 5;
         echo "<br>";
@@ -89,13 +76,6 @@ and open the template in the editor.
         )));
         var_dump($var2);
         var_dump($var);
-
-
-        
-
-
-
-        // Tretia úloha
         $riadokMichalBehyl = 8; //mesiac narodenia
         $stlpecMichalBehyl = 17; //vek
         echo "<table border=1>";
